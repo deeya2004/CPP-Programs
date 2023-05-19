@@ -1,0 +1,240 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+  // character patterns-
+  /* //pattern 15-
+     AAA...
+     BBB...
+     CCC...
+     ...
+            */
+  // code for this pattern
+
+  cout << "pattern 15-" << endl;
+  int m;
+  cout << "enter the value of m:" << endl;
+  cin >> m;  // taking input
+  int a = 1; // row
+  while (a <= m) {
+    char ch = 'A' + a - 1;
+    int k = 1; // column
+    while (k <= m) {
+      cout << ch;
+      k = k + 1;
+    }
+    cout << endl;
+    a = a + 1;
+  }
+
+  cout << endl;
+
+  /* //pattern 16-
+     ABC...
+     ABC...
+     ABC...
+     ...
+            */
+  // code for this pattern
+
+  cout << "pattern 16-" << endl;
+  int n;
+  cout << "enter the value of n:" << endl;
+  cin >> n;  // taking input
+  int b = 1; // row
+  while (b <= n) {
+    int k = 1; // column
+    while (k <= n) {
+      char ch = 'A' + k - 1;
+      cout << ch;
+      k = k + 1;
+    }
+    cout << endl;
+    b = b + 1;
+  }
+
+  cout << endl;
+
+  /* //pattern 17-
+      ABC
+      DEF
+      GHI
+            */
+  // code for this pattern
+
+  cout << "pattern 17-" << endl;
+  int o;
+  cout << "enter the value of o:" << endl;
+  cin >> o;  // taking input
+  int c = 1; // row
+  char start = 'A';
+  while (c <= o) {
+    int k = 1; // column
+    while (k <= o) {
+      cout << start;
+      start = start + 1;
+      k = k + 1;
+    }
+    cout << endl;
+    c = c + 1;
+  }
+
+  cout << endl;
+
+  /* //pattern 18-
+      ABC
+      BCD
+      CDE
+            */
+  // code for this pattern
+
+  cout << "pattern 18-" << endl;
+  int p;
+  cout << "enter the value of p:" << endl;
+  cin >> p;  // taking input
+  int d = 1; // row
+  while (d <= p) {
+    int k = 1; // column
+    while (k <= p) {
+      char ch = 'A' + d + k - 2;
+      cout << ch;
+      k = k + 1;
+    }
+    cout << endl;
+    d = d + 1;
+  }
+
+  cout << endl;
+
+  /* //pattern 19-
+    A
+    BB
+    CCC
+    ....
+          */
+  // code for this pattern
+
+  cout << "pattern 19-" << endl;
+  int q;
+  cout << "enter the value of q:" << endl;
+  cin >> q;  // taking input
+  int e = 1; // row
+  while (e <= q) {
+    int k = 1;
+    while (k <= e) {
+      char ch = 'A' + e - 1;
+      cout << ch;
+      k = k + 1;
+    }
+    cout << endl;
+    e = e + 1;
+  }
+
+  cout << endl;
+
+  /* //pattern 20-
+      A
+      AB
+      ABC
+      ABCD
+      .....
+            */
+  // code for this pattern
+
+  cout << "pattern 20-" << endl;
+  int r;
+  cout << "enter the value of r:" << endl;
+  cin >> r;  // taking input
+  int f = 1; // row
+  while (f <= r) {
+    int k = 1;
+    char ch = 'A';
+    while (k <= f) {
+      cout << ch;
+      k = k + 1;
+      ch = ch + 1;
+    }
+    cout << endl;
+    f = f + 1;
+  }
+
+  cout << endl;
+  /* //pattern 21-
+    A
+    BC
+    DEF
+    GHIJ
+    .....
+          */
+  // code for this pattern
+
+  cout << "pattern 21-";
+  int s;
+  cout << "enter the value of s:" << endl;
+  cin >> s;
+  int g = 1;
+  char value = 'A';
+  while (g <= s) {
+    int k = 1;
+    while (k <= g) {
+      cout << value;
+      k = k + 1;
+      value = value + 1;
+    }
+    cout << endl;
+    g = g + 1;
+  }
+
+  cout << endl;
+
+  /* //pattern 22-
+    A
+    BC
+    CDE
+    DEFG
+    EFGHI
+    ......
+            */
+  // code for this pattern
+
+  cout << "pattern 22-";
+  int t;
+  cout << "enter the value of t:" << endl;
+  cin >> t;
+  int h = 1;
+  while (h <= t) {
+    int k = 1;
+    while (k <= h) {
+      char ch = 'A' + h + k - 2;
+      cout << ch;
+      k = k + 1;
+    }
+    cout << endl;
+    h = h + 1;
+  }
+
+  cout << endl;
+
+  /* //pattern 23-
+    D
+    DC
+    DCB
+    DCBA
+          */
+  cout << "pattern 23-" << endl;
+  int u;
+  cout << "enter the value of u:" << endl;
+  cin >> u;
+  int i = 1;
+  while (i <= u) {
+    int k = 1;
+    char ch = 'A' + u - i;
+    while (k <= i) {
+      cout << ch;
+      k = k + 1;
+      ch = ch + 1;
+    }
+    cout << endl;
+    i = i + 1;
+  }
+};
