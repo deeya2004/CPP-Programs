@@ -1,0 +1,85 @@
+#include <iostream>
+using namespace std;
+int main(){
+/* //pattern
+    12345
+    1234
+    123
+    12
+    1
+        */
+  cout<<"pattern 24-"<<endl;
+  int m;
+  cout<<"enter the value of m:"<<endl;
+  cin>>m;
+  int a=1;
+  while(a<=m){
+    int i=1;
+    while (i<=m-a+1){
+      
+      cout<<i;
+      i=i+1;
+    }
+    cout<<endl;
+    a=a+1;
+  }
+/* //pattern
+    54321
+    4321
+    321
+    21
+    1
+        */
+  cout<<"pattern 25-"<<endl;
+  int n;
+  cout<<"enter the value of n:"<<endl;
+  cin>>n;
+  int b=1;
+  while(b<=n){
+    int i=n-b+1;
+    while (i){
+      cout<<i;
+      i=i-1;
+  }
+  cout<<endl;
+  b=b+1;
+  }
+
+
+  cout<<endl;
+
+  /* //pattern 26-
+      1
+     121
+    12321
+   1234321
+  .........
+              */
+//code for this pattern
+  cout<<"pattern 26-"<<endl;
+  int o;
+  cout<<"enter the value of o:"<<endl;
+  cin>>o;
+  int c = 1;
+  while (c <= o) {
+    int space = o - c;
+    while (space) {
+      cout << " ";
+      space = space - 1;
+    }
+    int i = 1;
+    while (i <= c) {
+      cout << i;
+      i = i + 1;
+    }
+    int j = c - 1;
+    while (j) {
+      cout << j;
+      j = j - 1;
+    }
+    cout << endl;
+    c = c + 1;
+  }
+
+  cout<<endl;
+};
