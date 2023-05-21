@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main(){
+ /* // bitwise operators
+    and(&)
+    or(|)
+    not(~)
+    xor(^)
+          */   
+  int a;
+  cout<<"enter the value of a:"<<endl;
+  cin>>a;  
+  int b;
+  cout<<"enter the vaue of b:"<<endl;
+  cin>>b;
+  cout<<a<<"&"<<b<<"="<<(a&b)<< endl;
+  cout<<a<<"|"<<b<<"="<<(a|b)<< endl;
+  cout<<"~"<<a<<"="<<(~a)<< endl;
+  cout<<a<<"^"<<b<<"="<<(a^b)<< endl;
+  
+};
