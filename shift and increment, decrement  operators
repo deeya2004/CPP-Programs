@@ -1,0 +1,61 @@
+#include <iostream>
+using namespace std;
+int main(){
+/*  //shift operators
+    left shift(<<)(in some cases it forms negative number)
+  right shift(>>)
+        */
+  int a;
+  int b;
+  
+  cout<<"enter the value of a:"<<endl;
+  cin>>a;
+  cout<<"enter the value of n:"<<endl;
+  cin>>b;
+
+  cout<<"left shift(<<)-"<<endl;
+  cout<<a<<"<<"<<b<<"="<<(a<<b)<<endl;
+  cout<<endl;
+  cout<<"right shift(>>)-"<<endl;
+  cout<<a<<">>"<<b<<"="<<(a>>b)<<endl;
+  cout<<endl;
+
+/* //increment, decrement operators
+  i++= post increment
+  ++i= pre increment
+  i--= post decrement
+  --i= pre decrement
+              */
+  cout<<"post increment-"<<endl;
+  int i;
+  cout<<"enter the value of i:"<<endl;
+  cin>>i;
+  cout<<"value of i ="<<i<<endl;
+  i++;
+  cout<<"new value of i ="<<i<<endl;
+  cout<<endl;
+
+  cout<<"pre increment-"<<endl;
+  int j;  
+  cout<<"enter the value of j:"<<endl;
+  cin>>j;  
+  ++j;
+  cout<<"value of j ="<<j<<endl;
+  cout<<endl;
+
+  cout<<"post decrement-"<<endl;
+  int k;
+  cout<<"enter the value of k:"<<endl;
+  cin>>k;
+  cout<<"value of k ="<<k<<endl;
+  k--;
+  cout<<"new value of k ="<<k<<endl;
+  cout<<endl;
+
+  cout<<"pre decrement:"<<endl;
+  int l;
+  cout<<"enter the value of l:"<<endl;
+  cin>>l;
+  --l;
+  cout<<"value of l ="<<l<<endl;
+}
