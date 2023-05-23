@@ -1,0 +1,67 @@
+#include <iostream>
+using namespace std;
+int main() {
+  // for loop-
+  // print counting from 1 to m-
+
+  int m;
+  cout << "enter the value of m:" << endl;
+  cin >> m;
+
+  cout << "printing counting from 1 to m" << endl;
+  // a=1 initialization
+  // a<=m condition
+  // i++ updation
+  for (int a = 1; a <= m; a++) {
+    cout << a << endl;
+  }
+  cout << endl;
+
+  // break- current loop se bhar leaayega
+
+  int n;
+  cout << "enter the value of n:" << endl;
+  cin >> n;
+  cout << "print numbers using break statement" << endl;
+  int b = 1;
+  for (;;) {
+    if (b <= n) {
+      cout << b << endl;
+    } else {
+      break;
+    }
+    b++;
+  }
+  cout << endl;
+
+  // printing sum from 1-o
+  int o;
+  cout << "enter the value of o:" << endl;
+  cin >> o;
+  int sum = 0;
+  for (int c = 1; c <= n; c++) {
+    sum += c;
+  }
+  cout << "sum is: " << sum << endl;
+  cout << endl;
+
+  /*//FIBONACCI SERIES-
+    0,1,1,2,3,5,8,13,21,...
+    number is the sum of previous 2 numbers.*/
+
+  int p;
+  cout << "enter the value of p:" << endl;
+  cin >> p;
+  int q = 0; // first number
+  int r = 1; // second number;
+  cout << q << endl;
+  for (int d = 1; d <= p; d++) {
+    int next_number = q + r;
+    cout << next_number << endl;
+
+    q = r;
+    r = next_number;
+  }
+
+  cout << endl;
+};
