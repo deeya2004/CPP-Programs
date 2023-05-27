@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main(){
+/*  //operator precedence
+  !,/,-
+  *,/,%
+  +.-
+  <,<=,>=,>
+  ==,!=
+  &&
+  ||
+  =
+          */
+  
+  int a = 5, b = 13, c = 15, d = 16 ;
+  a = a + 4 * c++ % 6 * 4 + d + --b - 5 / d + 6 ;
+  cout << a ; 
+  
+};
