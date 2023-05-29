@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main() {
+  // code to find largest number
+  int a, b, c;
+  cout << "Enter the value of a: ";
+  cin >> a;
+  cout << "Enter the value of b: ";
+  cin >> b;
+  cout << "Enter the value of c: ";
+  cin >> c;
+
+  if (a >= b && a >= c) { // check a is largest or not
+    cout << "Largest number: " << a;
+  }
+
+  else if (b >= a && b >= c) { // check b is largest or not
+    cout << "Largest number: " << b;
+  }
+
+  else {
+    cout << "Largest number: " << c;
+  }
+  return 0;
+};
