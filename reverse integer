@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  //code to reverse the number
+  int n, remainder;
+  int reverse = 0;
+  cout << "Enter the number: ";
+  cin >> n;
+  
+  while (n != 0) {
+    remainder = n % 10;//finding the remainder
+    reverse = reverse * 10 + remainder;
+    n /= 10;
+  }
+  
+  cout << "Reversed number: " << reverse << endl;
+  
+};
