@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "ASCII values for all uppercase letters:" << endl;
+  char ch='A';
+  while(ch<='Z'){
+    cout << "The ASCII value of " << ch << " is " << int(ch) << endl;
+    ch++;
+  }
+};
