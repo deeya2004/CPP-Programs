@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  // code to find size of different datatypes
+  char ch;
+  int a;
+  long l;
+  float f;
+  double d;
+
+  cout << "Size of char: " << sizeof(ch) << " byte" << endl;
+  cout << "Size of int: " << sizeof(a) << " bytes" << endl;
+  cout << "Size of long: " << sizeof(l) << " bytes" << endl;
+  cout << "Size of float: " << sizeof(f) << " bytes" << endl;
+  cout << "Size of double: " << sizeof(d) << " bytes" << endl;
+};
