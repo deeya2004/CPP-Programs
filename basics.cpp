@@ -32,7 +32,7 @@ int main() {
 
   // typecasting
   int f = 'a';
-  cout << "e:" << e << endl;
+  cout << "f:" << f << endl;
 
   char ch1 = 98;
   cout << "ch1:" << ch1 << endl;
