@@ -1,0 +1,12 @@
+#include <iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+  //program to find the cuberoot
+    int n;
+    cout<<"Enter a number : ";
+    cin>>n;
+    int cuberoot=cbrt(n);
+    cout<<"The cube root of "<<n<<" is " <<cuberoot;
+};
